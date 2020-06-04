@@ -10,20 +10,20 @@ Description
 
 Currently only implements the local api, which just needs a IP address.
 
-```Python
-import asyncio
-from smobot import Smobot
+.. code-block:: python
 
-async def main(ip):
-    smobot = Smobot(ip)
-    print(await smobot.status)
-    await smobot.close()
+    import asyncio
+    from smobot import Smobot
 
-if __name__ == "__main__":
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete('192.168.4.1')
+    async def main(ip):
+        smobot = Smobot(ip)
+        print(await smobot.status)
+        await smobot.close()
 
-```
+    if __name__ == "__main__":
+        loop = asyncio.get_event_loop()
+        loop.run_until_complete('192.168.4.1')
+
 
 
 Note
