@@ -2,7 +2,7 @@
 smobot
 ======
 
-Python package to interface with the [Smobot](http://smobot.com/) device using asynchronous http (aiohttp).
+Python package to interface with the Smobot_ device using asynchronous http (aiohttp).
 
 
 Description
@@ -31,3 +31,5 @@ Note
 
 This project has been set up using PyScaffold 3.2.3. For details and usage
 information on PyScaffold see https://pyscaffold.org/.
+
+.. _Smobot: http://smobot.com/
