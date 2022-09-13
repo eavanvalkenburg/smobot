@@ -57,7 +57,7 @@
                 "sha256:feb24ff1226beeb056e247cf2e24bba5232519efb5645121c4aea5b6ad74c1f2"
             ],
             "index": "pypi",
-            "version": "==3.7.4"
+            "version": "==3.8.1"
         },
         "async-timeout": {
             "hashes": [
